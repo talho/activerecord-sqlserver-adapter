@@ -146,7 +146,8 @@ module ActiveRecord
             :nvarchar     => { :name => "nvarchar", :limit => 255 },
             :nvarchar_max => { :name => "nvarchar(max)" },
             :ntext        => { :name => "ntext" },
-            :ss_timestamp => { :name => 'timestamp' }
+            :ss_timestamp => { :name => 'timestamp' },
+            :xml          => { :name => 'xml' }
           }
         end
 
