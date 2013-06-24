@@ -150,6 +150,7 @@ module ActiveRecord
           when /datetime/i          then simplified_datetime
           when /varchar\(max\)/     then :text
           when /timestamp/          then :binary
+          when /xml/                then :text
           else super
         end
       end
